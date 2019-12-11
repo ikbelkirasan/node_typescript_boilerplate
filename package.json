@@ -1,0 +1,21 @@
+{
+  "name": "node_typescript_boilerplate",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "yarn clear-terminal && jest",
+    "clear-terminal": "printf '\u001b[2J\u001b[1;3H\u001b[3J'"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "nock": "^11.7.0",
+    "should": "^13.2.3",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
